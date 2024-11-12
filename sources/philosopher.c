@@ -87,9 +87,8 @@ void	*philosopher(void *data)
 	{
 		philo_routine(philo);
 		if (philo->total_eat == 0)
-			break;
+			break ;
 		think_process(philo, false);
-		
 	}
 	return (NULL);
 }
